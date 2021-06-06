@@ -1,4 +1,6 @@
 FROM composer:1.7.2
+MAINTAINER joonsangp@gmail.com
+
 
 COPY composer_laravel.lock /php-app/composer.lock
 COPY Gemfile_rails.lock /ruby-app/Gemfile.lock
